@@ -25,7 +25,7 @@ function App() {
             <Tenure data={data} setData={setData}/>
           </Grid>
           <Grid item md={6}>
-            <Result />
+            <Result data={data}/>
           </Grid>
         </Grid>
         </Container>
