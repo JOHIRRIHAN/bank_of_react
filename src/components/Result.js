@@ -29,7 +29,7 @@ const result = ({ data }) => {
   return (
     <Stack>
       <Typography variant="h5" textAlign={'center'} my={5}>
-        monthlyPayment: & {monthlyPayment.toFixed(2)}
+        monthlyPayment: $ {monthlyPayment.toFixed(2)}
       </Typography>
       <div>
         <Pie data={pieChartData} />;
